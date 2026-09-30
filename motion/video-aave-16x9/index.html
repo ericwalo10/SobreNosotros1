@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finanflix IA · AAVE</title>
+<style>
+  /* Fuentes locales (el render corre sin internet). League Gothic sustituye la Grotesk condensada de Finanflix. */
+  @font-face { font-family: "LG"; src: url("../fonts/LeagueGothic-400.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Poppins"; font-weight: 400; src: url("../fonts/Poppins-400.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Poppins"; font-weight: 600; src: url("../fonts/Poppins-600.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "JBM"; font-weight: 400 700; src: url("../fonts/JetBrainsMono-400.woff2") format("woff2"); font-display: block; }
+
+  /* Fondo = color muestreado de las capturas (#0B111B), para que se integren sin marco. */
+  :root { --bg: #0B111B; --orange: #FF3F00; --text: #F6F5F8; --t62: rgba(246,245,248,.62); --t35: rgba(246,245,248,.35); }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { background: #06090F; color: var(--text); font-family: "Poppins", sans-serif; }
+  body { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 16px; }
+  #viewport { width: min(100%, calc((100vh - 120px) * 16 / 9)); aspect-ratio: 16 / 9; position: relative; overflow: hidden; border-radius: 10px; }
+  #stage { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; overflow: hidden; background: var(--bg); }
+  #controls { display: flex; gap: 10px; align-items: center; width: min(100%, 900px); font-size: 14px; color: var(--t62); }
+  #controls button { font: inherit; background: #182030; color: var(--text); border: 1px solid #2a3448; border-radius: 8px; padding: 6px 14px; cursor: pointer; }
+  #controls input { flex: 1; accent-color: var(--orange); }
+  body.render { padding: 0; display: block; background: var(--bg); }
+  body.render #viewport { width: 1920px; height: 1080px; border-radius: 0; }
+  body.render #controls { display: none; }
+
+  #vignette { position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,.5) 100%); pointer-events: none; }
+  #grain { position: absolute; inset: 0; opacity: .07; mix-blend-mode: overlay; pointer-events: none; }
+  #cam { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  img { display: block; }
+
+  .ttl { font-family: "LG", sans-serif; text-transform: uppercase; line-height: .86; text-align: center; }
+  .ln { overflow: hidden; padding-top: .32em; margin-top: -.32em; }
+  .ln > span { display: inline-block; padding: .3em .04em 0; margin-top: -.3em; }   /* caja alta para no cortar tildes */
+  .white { background: linear-gradient(180deg, #FFFFFF, #EDE9F8 55%, #B7AFD6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .orange { background: linear-gradient(90deg, #FF3F00, #FF5A1F 35%, #FFA066 50%, #FF3F00 65%); background-size: 300% 100%;
+    -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .mono { font-family: "JBM", monospace; }
+  .caps { text-transform: uppercase; letter-spacing: .16em; font-size: 13px; font-weight: 600; color: var(--t62); }
+
+  /* Capturas reales, sin recortar ni recrear */
+  #s1 { position: absolute; left: 40px; top: 20px; width: 1840px; }
+  #col { position: absolute; left: 160px; top: 60px; width: 1600px; }
+  .shot { position: absolute; left: 0; width: 1600px; }
+  .shot > img { width: 100%; }
+
+  /* Anotaciones sobre las capturas */
+  .ring { position: absolute; border: 3px solid var(--orange); border-radius: 8px; box-shadow: 0 0 18px rgba(255,63,0,.45); }
+  #tip { position: absolute; width: 16px; height: 16px; margin: -8px 0 0 -8px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 20px rgba(255,63,0,.7); }
+  .note-card { position: absolute; border-radius: 16px; background: rgba(11,17,27,.94); border: 1.5px solid rgba(255,63,0,.6); box-shadow: 0 0 26px rgba(255,63,0,.2); }
+  #callout { width: 300px; padding: 12px 18px; }
+  #callout .v { font-size: 34px; font-weight: 700; margin-top: 2px; }
+  #badge { padding: 12px 22px; display: flex; align-items: center; gap: 18px; white-space: nowrap; }
+  #badge .mv { font-size: 24px; font-weight: 700; }
+  #badge .pct { font-size: 34px; font-weight: 700; }
+
+  .page { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+  .logo { position: absolute; width: 236px; height: 60px; transform-origin: 0 0; }
+  .logo img { width: 236px; height: 60px; }
+  #closing .ptitle { position: absolute; top: 500px; width: 100%; font-size: 118px; }
+  .legal { position: absolute; top: 985px; width: 100%; text-align: center; font-size: 17px; color: var(--t35); }
+
+  #cursor { position: absolute; left: 0; top: 0; width: 48px; height: 68px; transform-origin: 6px 4px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.5)); }
+  #ripple { position: absolute; border: 3px solid var(--orange); border-radius: 50%; }
+</style>
+</head>
+<body>
+<div id="viewport"><div id="stage">
+  <div id="cam">
+    <!-- Apertura: logo recortado de la captura real -->
+    <div class="logo" id="logoOpen"><img src="assets/logo.png" alt=""></div>
+
+    <!-- Captura 1: inicio de Finanflix IA -->
+    <img id="s1" src="assets/1-inicio.webp" alt="">
+
+    <!-- Capturas 2 a 5: la misma conversación, apiladas en su orden real -->
+    <div id="col">
+      <div class="shot" id="s2" style="top:0"><img src="assets/2-pregunta.webp" alt=""></div>
+      <div class="shot" id="s3" style="top:507px"><img src="assets/3-investigacion.webp" alt=""><div class="ring" id="ringChip"></div></div>
+      <div class="shot" id="s4" style="top:1205px"><img src="assets/4-grafico.png" alt="">
+        <div class="ring" id="ringFlash"></div><div id="tip"></div>
+        <div class="note-card" id="callout"><div class="caps">Precio de compra Finanflix</div><div class="v mono"><span class="orange">US$ 79,51</span></div></div>
+      </div>
+      <div class="shot" id="s5" style="top:1938px"><img src="assets/5-respuesta.webp" alt="">
+        <div class="ring" id="ringPrice"></div><div class="ring" id="ringTiming"></div>
+        <div class="note-card" id="badge"><span class="caps">Desde el precio de compra</span>
+          <span class="mv mono" style="color:var(--t62)">US$ 79,51</span><span class="mv" style="color:var(--t35)">→</span>
+          <span class="mv mono">US$ 158,95</span><span class="pct mono"><span class="orange" id="pctv">+99,9%</span></span></div>
+      </div>
+    </div>
+
+    <!-- Cierre -->
+    <section id="closing" class="page">
+      <div class="logo" id="logoClose" style="top:300px"><img src="assets/logo.png" alt=""></div>
+      <div class="ptitle ttl"><div class="ln"><span class="white">La lectura es del método.</span></div><div class="ln"><span class="orange">La decisión, tuya.</span></div></div>
+      <div class="legal" id="legal">Las respuestas se generan con IA – no es consejo de inversión. Rendimientos pasados no garantizan resultados futuros.</div>
+    </section>
+
+    <div id="ripple"></div>
+    <svg id="cursor" viewBox="0 0 24 34"><path d="M2 2 L2 27 L8.5 21 L13 31.5 L17.5 29.5 L13.2 19.5 L22 19.5 Z" fill="#fff" stroke="#16141d" stroke-width="1.8" stroke-linejoin="round"/></svg>
+  </div>
+  <div id="vignette"></div>
+  <div id="grain"></div>
+</div></div>
+<div id="controls"><button id="play">▶ Play</button><input id="scrub" type="range" min="0" max="36" step="0.01" value="0"><span id="time">0.00</span></div>
+
+<script src="timeline.js"></script>
+<script>
+const T = TL.t, W = 1920, H = 1080, C = { x: 960, y: 540 };
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+
+// --- curvas ---------------------------------------------------------------------
+const P = (t, a, b) => Math.min(1, Math.max(0, (t - a) / (b - a)));
+const lerp = (a, b, p) => a + (b - a) * p;
+const E = {
+  outExpo: p => p >= 1 ? 1 : 1 - Math.pow(2, -10 * p),
+  outCubic: p => 1 - Math.pow(1 - p, 3),
+  inOutCubic: p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2,
+  inOutSine: p => -(Math.cos(Math.PI * p) - 1) / 2,
+};
+function css(el, o = {}) {
+  el.style.transform = `translate(${o.x || 0}px,${o.y || 0}px)` + (o.persp ? ` perspective(${o.persp}px)` : '') +
+    ` rotateX(${o.rx || 0}deg) rotateY(${o.ry || 0}deg) scale(${o.s ?? 1})`;
+  el.style.opacity = o.op ?? 1;
+  el.style.filter = o.blur > .05 ? `blur(${o.blur.toFixed(2)}px)` : 'none';
+}
+// Entrada escalonada: desde abajo, escala 0,8→1 y desenfoque leve que se resuelve.
+function enter(el, t, t0, dur = .55, dy = 30) {
+  const p = E.outExpo(P(t, t0, t0 + dur));
+  css(el, { y: (1 - p) * dy, s: .8 + .2 * p, blur: (1 - p) * 6, op: P(t, t0, t0 + dur * .5) });
+  return p;
+}
+function reveal(ln, t, t0) { ln.firstElementChild.style.transform = `translateY(${(1 - E.outExpo(P(t, t0, t0 + .6))) * 115}%)`; }
+function ringFx(el, t, a, b) { const p = Math.min(E.outCubic(P(t, a, a + .25)), 1 - P(t, b, b + .25)); el.style.opacity = p; el.style.transform = `scale(${1.08 - .08 * p})`; }
+
+// --- geometría de las capturas: px de la imagen original → mundo ----------------------------
+const K1 = 1840 / 2000, K2 = 1600 / 2000, K3 = 1600 / 2000, K4 = 1600 / 1934, K5 = 1600 / 1522;
+const TOP = { s2: 0, s3: 507, s4: 1205, s5: 1938 }, COL = { x: 160, y: 60 };
+const S1 = (x, y) => ({ x: 40 + x * K1, y: 20 + y * K1 });
+const inCol = (id, k, x, y) => ({ x: x * k, y: TOP[id] + y * k });
+function place(el, k, x0, y0, x1, y1, pad = 6) {
+  Object.assign(el.style, { left: x0 * k - pad + 'px', top: y0 * k - pad + 'px', width: (x1 - x0) * k + 2 * pad + 'px', height: (y1 - y0) * k + 2 * pad + 'px' });
+}
+place($('#ringChip'), K3, 1316, 142, 1648, 190);
+place($('#ringFlash'), K4, 1617, 447, 1845, 477);
+Object.assign($('#tip').style, { left: 1123 * K4 + 'px', top: 452 * K4 + 'px' });
+Object.assign($('#callout').style, { left: 1235 * K4 + 'px', top: 500 * K4 + 'px' });
+place($('#ringPrice'), K5, 306, 98, 420, 140);
+place($('#ringTiming'), K5, 104, 1232, 1370, 1276);
+Object.assign($('#badge').style, { left: 470 * K5 + 'px', top: 6 * K5 + 'px' });
+
+// Desplazamiento de la conversación: cada tramo centra la captura siguiente.
+const scrollFor = colY => colY + COL.y - C.y;
+const SC = [
+  { t: T.scrollInv, to: scrollFor(TOP.s3 + 835 * K3 / 2) },
+  { t: T.clickChip, to: scrollFor(TOP.s4 + 850 * K4 / 2) },
+  { t: T.clickNext, to: TOP.s5 + COL.y - 40 },
+  { t: T.scrollTiming, to: scrollFor(TOP.s5 + 1254 * K5) },
+];
+function scrollAt(t) { let s = 0; for (const k of SC) s = lerp(s, k.to, E.inOutCubic(P(t, k.t, k.t + .65))); return s; }
+const scr = (p, t) => ({ x: COL.x + p.x, y: COL.y + p.y - scrollAt(t) });
+
+let L;
+function layout() {
+  L = {
+    composer: S1(880, 945), send: S1(1820, 1002), home: S1(1200, 600),
+    bubble: scr(inCol('s2', K2, 1598, 88), 9),
+    chips: scr(inCol('s3', K3, 930, 165), 13), chip4: scr(inCol('s3', K3, 1480, 165), 15),
+    img4: scr(inCol('s4', K4, 967, 400), 18),
+    flash: scr(inCol('s4', K4, 1400, 462), 21), flashLabel: scr(inCol('s4', K4, 1730, 462), 21),
+    callout: scr(inCol('s4', K4, 1235 + 181, 500 + 55), 23),
+    price: scr(inCol('s5', K5, 363, 119), 27),
+    timing: scr(inCol('s5', K5, 737, 1254), 30.5),
+  };
+}
+
+// --- cámara: solo zoom y paneo, tabla de tomas -------------------------------------------------
+function shots() {
+  const S = (a, b, s0, s1, f, c0 = f, c1 = f, ease = E.inOutCubic) => ({ a, b, s0, s1, f, c0, c1, ease });
+  const fc = { x: lerp(L.flash.x, C.x, .7), y: lerp(L.flash.y, C.y, .7) };
+  return [
+    S(.3, 3.0, 1, 1.05, C), S(3.0, 3.5, 1.05, 1, C),
+    S(4.3, 6.6, 1, 1.05, L.home), S(6.6, 7.2, 1.05, 1, L.home),
+    S(8.0, 10.8, 1, 1.08, L.bubble), S(10.8, 11.25, 1.08, 1, L.bubble),
+    S(12.0, 14.8, 1, 1.06, L.chips), S(14.8, 15.4, 1.06, 1, L.chips),
+    S(16.8, 20.2, 1, 1.05, L.img4), S(20.2, 20.75, 1.05, 1, L.img4),
+    // enfoque continuo sobre el flash crash: zoom in 0,6 s, sostén 0,5 s, zoom out 0,5 s
+    S(21.25, 21.85, 1, 1.9, L.flash, L.flash, fc), S(21.85, 22.35, 1.9, 1.93, L.flash, fc, fc), S(22.35, 22.85, 1.93, 1, L.flash, fc, L.flash),
+    S(23.0, 24.6, 1, 1.04, L.callout), S(24.6, 25.2, 1.04, 1, L.callout),
+    S(26.3, 29.0, 1, 1.06, L.price), S(29.0, 29.5, 1.06, 1, L.price),
+    S(30.3, 31.6, 1, 1.05, L.timing), S(31.6, 32.0, 1.05, 1, L.timing),
+    S(32.3, 36, 1, 1.06, C, C, C, E.inOutSine),
+  ];
+}
+function camera(t) {
+  let s = 1, f = C, c = C;
+  for (const k of SH) if (t >= k.a && t <= k.b) {
+    const p = k.ease(P(t, k.a, k.b));
+    s = lerp(k.s0, k.s1, p); f = k.f; c = { x: lerp(k.c0.x, k.c1.x, p), y: lerp(k.c0.y, k.c1.y, p) };
+  }
+  $('#cam').style.transform = `translate(${c.x}px,${c.y}px) scale(${s}) translate(${-f.x}px,${-f.y}px)`;
+}
+
+// --- cursor ---------------------------------------------------------------------------
+function moves() {
+  const M = (a, b, to, arc = 60) => ({ a, b, to, arc });
+  return [
+    M(T.cursorIn, T.cursorIn + .8, L.composer, 90), M(6.25, T.hoverSend, L.send, 50),
+    M(7.9, 8.6, { x: L.bubble.x - 120, y: L.bubble.y + 190 }, 60), M(11.4, 12.0, { x: 1300, y: 520 }, 50),
+    M(15.0, T.hoverChip, L.chip4, 50), M(17.0, 17.7, { x: 1320, y: 860 }, 60),
+    M(20.25, T.hoverFlash, L.flashLabel, 80), M(24.5, T.hoverCallout, L.callout, 70),
+    M(26.3, 26.9, { x: L.price.x + 60, y: L.price.y + 90 }, 60), M(28.9, 29.4, { x: 1450, y: 760 }, 50),
+    M(30.0, 30.5, { x: L.timing.x + 200, y: L.timing.y + 80 }, 50),
+    M(T.cursorOut, T.cursorOut + .55, { x: 2080, y: 1240 }, 60),
+  ];
+}
+const CLICKS = [T.clickComposer, T.clickSend, T.clickChip, T.clickFlash, T.clickNext];
+function cursor(t) {
+  let pos = { x: 1560, y: 1180 };
+  for (const m of MV) {
+    if (t < m.a) break;
+    const from = pos, p = E.inOutCubic(P(t, m.a, m.b));
+    const dx = m.to.x - from.x, dy = m.to.y - from.y, len = Math.hypot(dx, dy) || 1, arc = Math.sin(Math.PI * p) * m.arc;
+    pos = { x: lerp(from.x, m.to.x, p) - dy / len * arc, y: lerp(from.y, m.to.y, p) + dx / len * arc };
+  }
+  let press = 1;
+  for (const c of CLICKS) if (t >= c - .1 && t <= c + .1) press = .84;
+  const op = Math.min(P(t, T.cursorIn, T.cursorIn + .3), 1 - P(t, T.cursorOut + .3, T.cursorOut + .55));
+  const el = $('#cursor');
+  el.style.transform = `translate(${pos.x - 6}px,${pos.y - 4}px) scale(${press})`; el.style.opacity = op;
+  const rp = $('#ripple'); let r = 0;
+  for (const c of CLICKS) if (t >= c && t < c + .45) r = P(t, c, c + .45);
+  const d = 90 * E.outCubic(r);
+  Object.assign(rp.style, { left: pos.x - d / 2 + 'px', top: pos.y - d / 2 + 'px', width: d + 'px', height: d + 'px', opacity: r > 0 ? 1 - r : 0 });
+}
+
+// --- logo real centrado, con escala y sin rotación ------------------------------------------
+function logo(el, t, t0, scale, cy, out = 99) {
+  const p = E.outExpo(P(t, t0, t0 + .8)), x = E.inOutCubic(P(t, out, out + .5)), s = scale * (.85 + .15 * p);
+  Object.assign(el.style, { left: `${960 - 118 * s}px`, top: `${cy - 30 * s}px`,
+    transform: `translateY(${(1 - p) * 30 - x * 60}px) scale(${s})`, opacity: Math.min(P(t, t0, t0 + .4), 1 - x),
+    filter: p < .98 ? `blur(${(1 - p) * 6}px)` : 'none' });
+}
+
+// --- render(t) -------------------------------------------------------------------------------
+function render(t) {
+  const f = Math.round(t * TL.fps);
+  $('#grain').style.backgroundPosition = `${(f * 97) % 256}px ${(f * 61) % 256}px`;
+  $$('.orange').forEach(e => e.style.backgroundPosition = `${(t * 18) % 300}% 0`);
+
+  logo($('#logoOpen'), t, T.logoIn, 2.4, 540, T.logoOut);
+
+  // captura 1: entra desde abajo inclinada 22° en X y se endereza; sale con un empuje al enviar
+  const s1 = $('#s1'), pin = E.outExpo(P(t, T.s1In, T.s1In + 1.1));
+  const px = E.inOutCubic(P(t, T.clickSend, T.clickSend + .65)), pb = Math.sin(Math.PI * px) * 3;
+  s1.style.transformOrigin = '50% 100%';
+  css(s1, { x: -px * 1500, y: (1 - pin) * 700, persp: 1800, rx: (1 - pin) * 22, ry: px * 14, blur: pb, op: P(t, T.s1In, T.s1In + .3) * (px >= 1 ? 0 : 1) });
+
+  // conversación: entra con el mismo empuje y después se desplaza por las capturas
+  css($('#col'), { x: (1 - px) * 1500, y: -scrollAt(t), persp: 1800, ry: -(1 - px) * 14, blur: pb,
+    op: px <= 0 ? 0 : 1 - P(t, T.closing + .1, T.closing + .6) });
+
+  // anotaciones
+  ringFx($('#ringChip'), t, T.hoverChip, T.clickChip + .3);
+  ringFx($('#ringFlash'), t, T.hoverFlash, T.clickNext);
+  $('#tip').style.opacity = P(t, T.callout, T.callout + .5) * (1 - P(t, T.clickNext, T.clickNext + .3));
+  enter($('#callout'), t, T.callout, .55, 20);
+  const hc = Math.min(P(t, T.hoverCallout, T.hoverCallout + .2), 1 - P(t, T.clickNext + .1, T.clickNext + .3));
+  $('#callout').style.boxShadow = `0 0 ${26 + 20 * hc}px rgba(255,63,0,${.2 + .3 * hc})`;
+  if (hc > 0) $('#callout').style.transform += ` translateY(${-12 * hc}px) scale(${1 + .025 * hc})`;
+  ringFx($('#ringPrice'), t, T.ringPrice, T.scrollTiming);
+  enter($('#badge'), t, T.badge, .55, 20);
+  $('#pctv').textContent = `+${(99.9 * E.outCubic(P(t, T.badge + .3, T.badge + 1.3))).toFixed(1).replace('.', ',')}%`;
+  ringFx($('#ringTiming'), t, T.ringTiming, T.closing);
+
+  // cierre: logo real + frase + legal
+  const cp = E.inOutCubic(P(t, T.closing, T.closing + .65));
+  css($('#closing'), { x: (1 - cp) * 1500, persp: 1800, ry: -(1 - cp) * 14, blur: Math.sin(Math.PI * cp) * 3, op: cp <= 0 ? 0 : 1 });
+  logo($('#logoClose'), t, T.closeLogo, 1.8, 380);
+  $$('#closing .ln').forEach((ln, i) => reveal(ln, t, T.closeLines[i]));
+  enter($('#legal'), t, T.legal);
+
+  camera(t); cursor(t);
+}
+
+// --- grano: ruido de 256 px generado una vez -----------------------------------------------
+(() => {
+  const c = document.createElement('canvas'); c.width = c.height = 256; const x = c.getContext('2d'), d = x.createImageData(256, 256);
+  let s = 12345; const r = () => (s = (s * 1664525 + 1013904223) >>> 0) / 4294967296;
+  for (let i = 0; i < d.data.length; i += 4) { const v = r() * 255; d.data[i] = d.data[i + 1] = d.data[i + 2] = v; d.data[i + 3] = 255; }
+  x.putImageData(d, 0, 0); $('#grain').style.backgroundImage = `url(${c.toDataURL()})`;
+})();
+
+// --- arranque: modo vivo o modo render (#render) ----------------------------------------------
+let SH, MV;
+const RENDER = location.hash.includes('render');
+if (RENDER) document.body.classList.add('render');
+function fit() { if (!RENDER) $('#stage').style.transform = `scale(${$('#viewport').clientWidth / W})`; }
+Promise.all([document.fonts.ready, ...['LG', 'Poppins', 'JBM'].map(f => document.fonts.load(`600 40px "${f}"`)),
+  ...$$('img').map(i => i.complete ? 1 : new Promise(r => { i.onload = r; i.onerror = r; }))]).then(() => {
+  layout(); SH = shots(); MV = moves(); fit(); render(0);
+  window.render = render; window.ready = true;
+});
+window.addEventListener('resize', fit);
+let cur = 0, playing = false, last = 0;
+const show = t => { cur = Math.min(TL.duration, Math.max(0, t)); render(cur); $('#scrub').value = cur; $('#time').textContent = cur.toFixed(2); };
+function tick(now) { if (!playing) return; show(cur + (now - last) / 1000); last = now; if (cur >= TL.duration) { playing = false; $('#play').textContent = '▶ Play'; } else requestAnimationFrame(tick); }
+$('#play').onclick = () => { playing = !playing; $('#play').textContent = playing ? '❚❚ Pausa' : '▶ Play'; if (playing) { if (cur >= TL.duration) cur = 0; last = performance.now(); requestAnimationFrame(tick); } };
+$('#scrub').oninput = e => show(+e.target.value);
+document.addEventListener('keydown', e => { if (e.code === 'Space') { e.preventDefault(); $('#play').click(); } });
+</script>
+</body>
+</html>
