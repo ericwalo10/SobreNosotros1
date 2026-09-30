@@ -1,0 +1,2449 @@
+--- Página 1 ---
+Campaña herramientas Finanflix — paquete
+de preproducción
+ Sep 29, 2026  ·  @Facu
+Recomendación ejecutiva
+Producir ya la Calculadora y el video conjunto; IA y Tracker se cierran cuando revise la
+plataforma con tu acceso y elija los casos del flash crash. La tracción tiene dos patas:
+~500 accesos nuevos a la IA por semana (dato de Facu, 30-sep) y 716 suscriptores pagos
+al 29-sep, contra 452 en junio (dashboard, mes en curso).
+Lo que cambia respecto del pedido:
+500 por semana = accesos a la IA. Facu lo precisó el 30-sep. En pantalla: "~500 accesos
+nuevos a la IA por semana", nunca "500 usuarios nuevos de Finanflix" (los free trials
+fueron de 56 a 193 por semana en septiembre).
+Bottoms: pasan a ser la apertura del Video 1. La plataforma expone las respuestas: la
+IA marcando la mecha del flash crash y el 0.786, y después la suba de la moneda. Falta
+elegir dos o tres casos con fecha, nivel y evolución.
+USD 5.200 millones sigue sin definición. Hay tres versiones en el vault (capital
+administrado, volumen operado en futuros, dato de Iñaki). Sin medida, no entra.
+"Casi una década" queda por decisión de Facu, referida al mercado cripto. Finanflix
+como empresa cumplió 7 años el 08-abr-2026: no escribir "Finanflix tiene casi una
+década".
+La calculadora real es plataforma.finanflix.com/calculadora .
+calculadora.finanflix.com  seguía sirviendo la copia vieja del 10-ago el 30-sep. Si
+Lenny no la redirige, el editor usa solo la plataforma.
+IA y Tracker: Facu da acceso a la plataforma para verlos funcionando y buscar los
+casos.
+Decisiones resueltas y pendientes
+Tema Estado Decisión o bloqueo
+Objetivo de campaña Resuelto Deseo y FOMO basado en pruebas (Facu, 29-sep)
+Versión de la
+calculadora
+Resuelto Producción en plataforma, observada 29-sep
+Tracción de la marca Resuelto 452 → 716 suscriptores pagos, jun → sep 2026
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 1 of 30
+
+--- Página 2 ---
+Tres preguntas para Facu
+1. Acceso: ¿la IA y el Tracker están incluidos para todo suscriptor y desde el día 1 del trial,
+como dice la landing, o sigue el cupo de 200? Define el CTA y si el conjunto puede decir
+"esto es lo que usan".
+2. USD 5.200 millones: ¿qué mide (volumen operado o capital administrado), de quién y
+en qué período?
+3. Casos de flash crash: ¿tenés en mente monedas puntuales, o los busco yo en la
+plataforma?
+Automatización posible: con la cuenta demo creada, un script puede grabar las capturas
+de la calculadora desde links de plan compartido y rehacerlas el día de publicación con
+datos frescos. También puedo revisar las cifras en el dashboard antes de cada
+exportación.
+Brief general
+Tesis de campaña (de trabajo, no slogan): la experiencia de Finanflix convertida en
+herramientas que la gente ya está incorporando. Cada pieza abre con tracción o prueba,
+muestra el método detrás y termina en una demostración que cualquiera entiende sin
+sonido.
+Tema Estado Decisión o bloqueo
+500 por semana Resuelto ~500 accesos nuevos a la IA por semana (Facu, 30-
+sep)
+Casi una década Resuelto Se usa, referido al mercado cripto (Facu, 30-sep)
+Casos de bottoms En curso Existen en la plataforma; falta elegir casos con
+fecha
+Canal y formato Provisional Reels de Instagram 9:16 como master; 4:5 y 16:9
+derivados
+CTA Provisional Landing de 30 días gratis; calculadora sin registro
+Acceso a IA y Tracker Pendiente Landing: incluidos desde el día 1. Inventario: cupo
+de 200
+USD 5.200 millones Pendiente Falta medida, período y equipo
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 2 of 30
+
+--- Página 3 ---
+Campaña y piezas
+Orden narrativo elegido: tracción o prueba en los primeros 3 segundos, método, demo,
+invitación. En la Calculadora la prueba es la historia del mercado, porque no hay datos de
+uso (la medición arrancó el 28-sep).
+Audiencia, canal y acción (provisional)
+Segmento: hispanohablantes de Latinoamérica que invierten o quieren invertir, con
+foco cripto, que siguen a Facu o a Finanflix y todavía no son suscriptores. Secundario:
+suscriptores que no activaron la IA ni el Tracker.
+Canal principal: Reels de Instagram. En septiembre el 89% de los free trials fue
+orgánico (505 de 568). Pauta en Meta como segundo canal, con la regla del equipo de
+no hacer cambios grandes en campañas activas.
+Acción: iniciar el free trial de 30 días en la landing con el ref  del canal. La Calculadora
+invita a usarla gratis, y ella misma deriva al método.
+Disponibilidad: la Calculadora es pública y gratuita (verificado). IA y Tracker figuran
+como incluidos en la landing; falta confirmar si hay cupo.
+Formatos
+Master 9:16, 1080×1920, 30 fps. Texto dentro de la zona segura de Reels: sin texto en
+los 250 px de arriba ni en los 400 px de abajo.
+4:5, 1080×1350 para anuncios de feed. 16:9, 1920×1080 para YouTube, la landing y X, con
+el conjunto rediagramado y no recortado.
+Pieza Promesa propia Demostración
+principal
+Duración CTA y destino
+1 · Finanflix
+IA
+Preguntale al
+método
+Caso fechado:
+mecha del flash
+crash + 0.786 y la
+suba posterior
+40 s Probá 30 días gratis →
+finanflix.com/Aprende-Nuestro-
+metodo/
+2 · Portfolio
+Tracker
+Toda tu cartera,
+una sola lectura
+Calculadora de
+escenarios de
+liquidez
+30 s Probá 30 días gratis → misma landing
+3 ·
+Calculadora
+Viví la decisión
+antes de tomarla
+"¿Te bancabas
+2008?" del
+simulador
+30 s Gratis, sin registrarte →
+plataforma.finanflix.com/calculadora
+4 · Conjunto Casi una década
+en cripto, en tres
+herramientas
+Recorrido
+entender, seguir,
+explorar
+55 s Probá 30 días gratis → landing
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 3 of 30
+
+--- Página 4 ---
+Las capturas se graban en desktop (1440×900) y en mobile (390×844) para no
+depender de un recorte.
+Identidad visual
+Sistema de diseño de Finanflix: fondo #1A1A23, superficie #282844, acento naranja
+#FF3F00, violeta #5328C1, tipografía Sharp Grotesk. Un solo acento por plano.
+Ritmo tomado de la referencia: un mensaje por plano, pastillas de estado que narran el
+trabajo, cierre que repite la apertura.
+Sonido: base electrónica sobria, golpes en cada número y tecleo real. Todo tiene que
+entenderse sin sonido.
+Escenas reutilizables
+Reglas de contenido
+Cada cifra en pantalla lleva fuente y fecha en el pie (E1) y se actualiza el día de
+exportación.
+Lectura: máximo 7 palabras por texto y al menos 1 segundo cada 3 palabras.
+Una animación puede simplificar la interfaz, pero conserva las acciones, los textos y los
+resultados de la captura.
+ID Escena Qué muestra Se usa en
+E1 Contador de
+tracción
+Número grande, etiqueta y pie con fuente y
+fecha
+1, 2, 4
+E2 Tarjeta de caso Fecha, activo, zona señalada y horizonte;
+después, la evolución real
+1, 4
+(bloqueada)
+E3 Capa de método Chips: material del programa, Fibonacci +
+estocástico, datos de mercado, tu cartera
+1, 4
+E4 Pantalla demo Interfaz real simplificada, cursor y zoom al
+resultado
+1, 2, 3, 4
+E5 Pastilla de estado "Leyendo tu cartera…", "Revisando el
+material…"
+1, 2, 4
+E6 Cierre y CTA Isologo, promesa, URL y legal 1, 2, 3, 4
+E7 Pie legal Una línea fija por pieza 1, 2, 3, 4
+E8 Hilo naranja Línea que une una herramienta con la
+siguiente
+4
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 4 of 30
+
+--- Página 5 ---
+Prohibido: cupos, contadores de escasez, urgencia por una suba, "datos en tiempo real"
+sin verlo en la captura, retornos como promesa y la IA como infalible.
+Casos de acierto: se muestran como casos fechados, nunca como tasa de precisión. Si
+la IA dio una zona, se dibuja la zona.
+No se atribuyen frases a Facu. La locución del conjunto es una propuesta que él
+aprueba o descarta.
+Afirmaciones: qué se sostiene
+Con las precisiones de Facu del 30-sep, tres de las cuatro afirmaciones de partida
+entran en pantalla; USD 5.200 millones sigue afuera.
+Afirmación Qué encontré Estado Uso en los guiones
+~500 por semana Facu (30-sep):
+"estamos dando 500
+accesos por semana
+aprox" a la IA. No son
+usuarios nuevos de
+Finanflix: los free
+trials fueron de 56 a
+193 por semana en
+septiembre.
+Dato de Facu "~500 accesos nuevos a
+la IA por semana" · pie:
+"Dato interno Finanflix,
+sep-2026".
+Suscriptores
+pagos
+452 (jun) → 498 (jul)
+→ 571 (ago) → 716
+(29-sep). Altas
+pagas: 57, 90, 111, 194.
+Septiembre sigue en
+curso.
+Verificado
+(dashboard, 29-sep)
+Apertura del conjunto y
+pie de E1. Actualizar el
+día de exportación.
+Objetivo anual
+superado
+"Road to 700": 700
+suscriptores pagos a
+fin de diciembre de
+2026. Hoy 716.
+Verificado Opcional: "Superamos
+el objetivo del año en
+septiembre". Confirmar
+que Facu quiere hacerlo
+público.
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 5 of 30
+
+--- Página 6 ---
+Afirmación Qué encontré Estado Uso en los guiones
+La IA dio los
+bottoms
+Facu (30-sep): la
+plataforma expone
+las respuestas de la
+IA marcando la
+mecha del flash
+crash y el 0.786. La IA
+existe desde el 11-
+jun-2026 y la función
+de flash crash desde
+el 27-jul (PR #35):
+cada caso tiene que
+ser posterior.
+Existe; casos por
+elegir
+Apertura del Video 1 y
+del conjunto. Por caso:
+moneda, fecha de la
+respuesta, mecha,
+0.786, suba posterior
+hasta la fecha de
+exportación.
+USD 5.200
+millones de
+experiencia
+Vault: "administró
+más de USD 5.000
+millones" (Facu, 02-
+sep, total del
+equipo); "operó más
+de USD 5.000
+millones en futuros"
+(borrador 12-ago,
+pendiente OK de
+Guchi); digest: el
+dato es de Iñaki.
+Contradictorio No se usa. Capital
+administrado y volumen
+operado no son
+intercambiables.
+Casi una década
+en cripto
+Decisión de Facu
+(30-sep): se usa.
+Finanflix como
+empresa tiene 7 años
+y medio; la IA, 3
+meses y medio.
+Decidido "Casi una década en el
+mercado cripto", nunca
+"Finanflix tiene casi una
+década".
+La IA aplica el
+framework
+Finanflix
+El laboratorio de la IA
+extrajo 216 reglas en
+15 dimensiones del
+material del curso,
+con cita textual (20-
+jun). La IA responde
+con ese material
+(RAG) y un gráfico
+de Fibonacci +
+estocástico.
+Sincronizado a la
+plataforma el 30-jul.
+Documentado; se
+observa con el
+acceso
+"Responde con el
+material del programa
+Finanflix". No decir
+"entrenada".
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 6 of 30
+
+--- Página 7 ---
+Las cifras de negocio del vault están congeladas desde el 04-sep por decisión de Facu; no
+se usaron. Las de esta tabla salen del dashboard y de Mixpanel el 29-sep.
+Inventario por producto
+La Calculadora está verificada funcionando en producción; IA y Tracker están
+documentados pero sin observar, y su acceso comercial se contradice entre fuentes.
+Estados: Observado (lo vi funcionar el 29-sep), Documentado (PR fusionado, transcripción
+o landing), En código (repo dev, sin confirmar en producción), Propuesto.
+Calculadora Finanflix
+Versión: producción en plataforma.finanflix.com/calculadora , observada el 29-sep-
+2026. Pública, sin login. Congelar esta versión antes de grabar.
+Afirmación Qué encontré Estado Uso en los guiones
++6.000 flixers Está publicado en la
+landing; en el vault
+hay "4.000+ base
+histórica" y "+4.800
+formados".
+Sin fuente única Solo si alguien confirma
+la definición.
+El Tracker
+también suma
+valor
+194 cuentas (193
+activas) el 02-jul,
+visto en el panel
+admin durante una
+reunión. Sin dato
+actual.
+Documentado,
+desactualizado
+Pendiente: cuentas
+activas hoy desde el
+admin del Tracker.
+Función Problema Beneficio Interacción que la
+demuestra
+Fuente Estado Acceso
+Simulador de
+eventos: "¿Te
+bancabas
+2008?"
+Nadie sabe cómo
+reaccionaría en
+una caída
+Vivir la
+decisión con
+datos reales
+antes de
+arriesgar
+"Reviví la historia"
+→ pausa en 2008
+(−37%) → "Sigo
+aportando" → tres
+resultados
+Producción;
+HistoryReplay.tsx
+Observado Público
+Titulares
+históricos
+("Otro
+evento")
+Decidir por noticias Ver qué pasó
+después de
+un titular
+Titular del ETF de
+bitcoin (ene-
+2024) → Compro /
+Vendo / Sigo con
+mi plan
+Producción;
+NewsQuiz.tsx
+Observado
+(pantalla);
+resultado sin
+probar
+Público
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 7 of 30
+
+--- Página 8 ---
+Finanflix IA
+Nombre en producto: "Finanflix IA" ( /asistente-af ). Lanzamiento base 11-jun-2026. No
+es el AF-GPT histórico: comparte laboratorio y material, pero corre dentro de la
+plataforma con créditos, tracker y catálogo.
+Función Problema Beneficio Interacción que la
+demuestra
+Fuente Estado Acceso
+Tres
+recorridos de
+entrada
+No saber por
+dónde empezar
+Empieza por
+la pregunta
+de cada uno
+"¿Cuánto voy a
+tener?", "¿Cuánto
+debo aportar?",
+"¿Cuánto
+necesito para vivir
+de rentas?"
+Producción Observado Público
+Proyección
+DCA con
+histórico
+Proyecciones con
+tasas inventadas
+Tasa del
+histórico real
+del activo,
+con fuente
+Plan por defecto:
+US$ 10.000 en 12
+aportes, S&P 500,
+5 años → US$
+16.351 (29-sep)
+Producción Observado Público
+Poder
+adquisitivo
+real
+La inflación no se
+ve
+Resultado en
+dólares de
+hoy y en Big
+Macs
+Botón "Big Macs":
+"64% más
+hamburguesas"
+(2.275 vs 1.391, 29-
+sep)
+Producción Observado Público
+Meta No saber cuánto
+aportar
+Aporte
+exacto para
+una meta y un
+plazo
+Presets Viaje,
+Emergencias,
+Casa, Jubilación
+Producción; bundle Observado
+(pantalla)
+Público
+Ingresos
+pasivos
+Cuánto capital
+hace falta para
+vivir de rentas
+Capital
+objetivo y
+plan a 20
+años
+US$ 3.000/mes,
+regla del 4% →
+"Armá tu plan"
+Producción; doc 04 Observado
+(pantalla)
+Público
+Plan
+compartible
+Perder el plan Link con
+montos y
+supuestos,
+sin email
+"Copiar enlace" o
+"WhatsApp"
+Producción Observado Público
+Guardar plan
+y revisión
+humana
+Planes grandes sin
+acompañamiento
+Con más de
+US$ 50.000,
+revisión del
+equipo sin
+costo
+Email + rango de
+capital
+Producción Observado
+(no enviado)
+Público;
+fuera del
+video
+Función Problema Beneficio Interacción
+que la
+demuestra
+Fuente Estado Acceso
+Respuestas
+con el
+material del
+programa
+Los chats
+genéricos no
+conocen el
+método
+Lectura con
+reglas y
+clases de
+Finanflix
+"¿Qué dice
+el método
+sobre…?"
+con cita
+PR #10, #46, #51;
+metodo-
+finanflix.md
+Documentado Según plan
+(tiers)
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 8 of 30
+
+--- Página 9 ---
+Función Problema Beneficio Interacción
+que la
+demuestra
+Fuente Estado Acceso
+Gráfico con
+Fibonacci +
+estocástico
+Timing a ojo Zonas del
+método
+sobre el
+precio
+"¿Llegué
+tarde a
+BTC?" →
+gráfico con
+niveles
+PR #18, #56;
+AssetChart.tsx
+Documentado Suscripción
+Lectura de
+tu cartera
+Respuestas
+en abstracto
+Riesgo y
+exposición
+con tus
+números
+"¿Cuánto
+puedo
+perder si el
+mercado
+cae 20%?"
+PR #52 (tool de
+portfolio al
+Tracker)
+Documentado Requiere
+Tracker
+Conectar el
+Tracker
+desde el
+chat
+Cargar la
+cartera da
+pereza
+Todo desde
+la
+conversación
+"Conectá
+mi tracker"
+Inventario 14-sep Documentado Suscripción
+Importar
+por captura
+o
+CSV/Excel
+Posiciones en
+varias apps
+Subir una
+captura y
+listo
+Captura de
+exchange →
+posiciones
+→
+Reemplazar
+/ Sumar /
+Cancelar
+PR #171, #178,
+#179
+Documentado 4 o 3
+créditos
+Acciones
+tokenizadas
+(xStocks)
+Activos
+nuevos sin
+precio
+Se
+reconocen
+desde
+captura
+Captura
+con
+xStocks
+PR #191 Documentado Suscripción
+Memoria
+del usuario
+Repetir
+contexto
+Recuerda lo
+del flixer
+Segunda
+consulta
+que retoma
+la primera
+PR #40 Documentado —
+Imágenes
+en el chat
+Explicar un
+gráfico
+propio
+Analiza una
+imagen
+Adjuntar
+imagen
+PR #175–#177 Documentado 5 créditos
+No inventa
+datos ni
+dice
+"comprá"
+Desconfianza
+en la IA
+Lectura, no
+orden
+Respuesta
+que
+termina en
+"la decisión
+sigue
+siendo
+tuya"
+Landing; reglas
+del laboratorio
+Documentado —
+Créditos
+mensuales
+y cupo
+— — Contador
+de créditos
+PR #14, #53, #170
+(cupo público de
+200)
+Documentado Contradice
+la landing
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 9 of 30
+
+--- Página 10 ---
+Fuera de las piezas: checkout de programas en el chat, precios y packs, flujo de bajas,
+bloqueos y métricas admin. Son comerciales o internos.
+Portfolio Tracker
+App aparte ( soldier-trades.trade ), con acceso por SSO desde el menú de Finanflix.
+Lanzamiento base 01-jun-2026 con 25 cupos; demo pública del 17-jun por Santiago Castillo.
+Función Problema Beneficio Interacción
+que la
+demuestra
+Fuente Estado Acceso
+Tablero
+consolidado
+Cartera
+repartida en
+exchanges,
+brokers y
+planillas
+Valor total,
+P&L, ROI y
+liquidez en
+una pantalla
+Dashboard →
+Cripto Spot
+Demo 17-
+jun;
+landing
+Documentado Suscripción;
+posible cupo
+Exchanges
+con API de
+solo lectura
+Miedo a dar
+acceso
+Ve, no
+mueve la
+plata
+Gestionar
+exchanges →
+claves de solo
+lectura
+Demo 17-
+jun;
+Bybit trk
+#261
+Documentado —
+Importación
+CSV/Excel
+Historial en
+otras apps
+Se trae el
+historial y
+no duplica
+Importar CSV
+→ vista previa
+→ confirmar
+Demo 17-
+jun;
+Cocos
+#267;
+plantilla
+#302
+Documentado —
+Liquidez,
+drawdown y
+peso por
+activo
+No saber
+cuánto riesgo
+hay
+Lectura de
+exposición
+Cripto Spot:
+torta y
+columnas
+Demo 17-
+jun
+Documentado —
+Rendimiento
+contra
+benchmark
+No saber si le
+gana a BTC o al
+S&P
+Retorno
+ponderado
+contra BTC
+o S&P
+Pestaña
+Rendimiento
+Demo 17-
+jun
+Documentado
+(necesita
+semanas de
+historia)
+—
+Calculadora
+de
+escenarios
+Rebalancear a
+ojo
+Ver cómo
+cambia cada
+posición
+antes de
+mover plata
+% de efectivo
+objetivo →
+Optimizar →
+ROI objetivo o
+mejor piso
+Demo 17-
+jun
+Documentado —
+Tesis de
+inversión y
+watchlist
+Olvidar por qué
+se compró
+Diario de
+decisiones
+Agregar tesis
+en una
+posición
+Demo 17-
+jun
+Documentado —
+Bonos y FCI Carteras
+argentinas
+Multi-
+portfolio de
+bonos y FCI
+Cartera de
+bonos
+trk #247
+(16-ago)
+Documentado —
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 10 of 30
+
+--- Página 11 ---
+Fuera de las piezas: dashboard de futuros (nicho), valuación por DCF (la IA la apagó para
+alumnos), Flix Market, ID de Discord. A futuro según la reunión del 02-jul: multidivisa; sin
+evidencia de lanzamiento.
+Integraciones reales entre herramientas: IA ↔  Tracker sí existe (lectura de cartera e
+importación desde el chat). La Calculadora no está conectada a ninguna: el conjunto la
+muestra como un paso separado.
+Referencia: Higgsfield × OpenAI Dots
+La pieza (59,6 s, 16:9, 1920×1080, publicada el 29-sep-2026) cuenta un trabajo que
+avanza solo: pedido, agentes investigando, escala del trabajo, entregable y lanzamiento,
+y cierra repitiendo la apertura. La revisé cuadro por cuadro cada 2 a 3 segundos en el
+navegador. El sonido no lo pude analizar: reproduje sin audio. Para música, voces y
+efectos, el editor tiene que escucharla; Facu puede subir el archivo a la carpeta del
+proyecto.
+Función Problema Beneficio Interacción
+que la
+demuestra
+Fuente Estado Acceso
+Lo lee la IA Datos sin
+interpretación
+La IA
+responde
+sobre tu
+cartera
+Ver Finanflix
+IA
+PR #52,
+#123
+Documentado —
+Tiempo Qué se ve Recurso
+0:00–
+0:04
+Fondo blanco, logos "OpenAI dots ×
+Higgsfield" que se escriben, pastilla
+"Always-On-Agents" y mascotas de
+colores alrededor
+Apertura de marca, construcción
+tipográfica
+0:05–
+0:07
+Persona con laptop de noche; barra de
+chat superpuesta: "Make me a viral app."
+y después "…Make no mistakes."
+Live action + interfaz; el pedido
+como gancho
+0:08 Plano cerrado de la persona sentada Pausa humana
+0:10 Interfaz blanca: burbuja del usuario y
+agente "Research · Researching…"
+Estado del agente
+0:12–0:14 Lista "Your dots": agentes como
+personajes (Comments, Insights)
+Presentación de capacidades
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 11 of 30
+
+--- Página 12 ---
+Qué adaptar:
+Un mensaje por plano y texto grande que se lee en un vistazo.
+Pastillas de estado que narran el trabajo de la herramienta (E5): "Leyendo tu cartera…".
+Escala mostrada con números reales (E1), no con adjetivos.
+Corte seco a negro antes del acto de la prueba.
+Cierre que repite la apertura, para que las cuatro piezas se sientan una familia.
+Reacción humana breve, si se graba con flixers reales y con su consentimiento.
+Qué no adaptar:
+Fondo blanco y mascotas: Finanflix es oscura y no tiene personajes.
+Tiempo Qué se ve Recurso
+0:16 "Scanning X for every viral app launch
+from the last 3 months…"
+El agente narra el trabajo
+0:18–0:22 Tarjetas de posts flotando en
+profundidad; pastillas "Analyzing every
+short drama post", "Reading 324
+comments…"
+Escala con números y cascada 3D
+0:24 Checklist en tipografía grande con blur Progreso leído, no explicado
+0:26 Negro Corte seco que marca un cambio de
+acto
+0:29–0:31 Muro de decenas de tarjetas Escala del trabajo
+0:34–
+0:36
+Un post aislado; "Analyzing 150 apps…"
+con una app inclinada y motion blur
+De la escala al detalle
+0:39–0:41 "Skill complete · Your app blueprint is
+ready" con un documento adjunto
+Entregable concreto
+0:44 Mascotas que se funden en una Transición de acto
+0:47–
+0:50
+"Generating episodes with Higgsfield" y
+la app; "Publishing your app to the
+marketplace"
+Producto en acción
+0:53 Persona mirando la laptop Reacción humana
+0:56 Cuatro personas mostrando la app en el
+celular
+Prueba social
+0:58–
+0:59
+Mismo cierre que la apertura Bookend
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 12 of 30
+
+--- Página 13 ---
+El chiste de "make no mistakes": en finanzas sugiere infalibilidad.
+Números ilustrativos (324 comentarios, 150 apps): en Finanflix cada número tiene que
+ser real.
+El muro de caras con la app: no se fabrican usuarios; solo testimonios reales
+autorizados.
+Formato 16:9 como master: el canal principal es vertical.
+Video 1 · Finanflix IA (40 s)
+Idea central: la IA marcó la zona con el método Finanflix —la mecha del flash crash y el
+0.786— y después la moneda explotó; hoy le podés preguntar por la tuya. Demo
+principal: la respuesta fechada con la zona y la animación de lo que pasó después. Apoyos:
+~500 accesos nuevos por semana y una consulta en vivo con tu cartera.
+Objetivo: que el espectador quiera probar la IA con su propia pregunta.
+Audiencia: inversores cripto que siguen a Finanflix y todavía no son suscriptores.
+Mensaje: no es un chat genérico; responde con el método Finanflix.
+CTA: "Probala 30 días gratis" → finanflix.com/Aprende-Nuestro-metodo/ con ref  del
+canal. Depende de confirmar que el trial incluye la IA.
+Queda afuera: créditos, imágenes en el chat, catálogo y checkout, xStocks. Son ciertos,
+pero no suman al deseo en 40 segundos.
+Aperturas
+A · El caso del flash crash (recomendada): la respuesta real de la IA con su fecha, la
+mecha y el 0.786 dibujados sobre el gráfico, y el precio que entra a la zona y sale
+disparado. Es la escena más potente de la campaña.
+B · La pregunta: "Antes de comprar," y en el composer se tipea "¿Llegué tarde a BTC?".
+Queda como versión de respaldo si un caso no pasa la revisión.
+Recomendación: A. Regla de la escena: se dibuja exactamente lo que dijo la IA (niveles y
+zona de la respuesta, con su fecha) y el precio real después. Si la respuesta dio una zona,
+se muestra la zona; "exacto" solo si el mínimo real coincide con el nivel.
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 13 of 30
+
+--- Página 14 ---
+Storyboard
+Tiempo Mensaje Pantalla o
+acción real
+Texto en
+pantalla
+Locución Movimiento /
+transición
+Sonido Material
+0:00–
+0:03
+Gancho: la
+respuesta
+Captura de
+la
+respuesta
+de la IA con
+fecha
+visible,
+sobre el
+gráfico de
+[moneda]
+con la
+mecha roja
+del flash
+crash
+"[Fecha]. La IA
+analizó
+[moneda]."
+No Push-in a la
+respuesta; la
+mecha late en
+rojo
+Pulso grave C-IA-07
+0:03–
+0:07
+La zona
+(E2)
+Se dibujan
+sobre el
+gráfico la
+línea de la
+mecha y la
+del 0.786,
+con la
+banda
+entre
+ambas
+"Mecha del flash
+crash: US$ [X]" ·
+"0.786: US$ [Y]"
+(valores literales
+de la respuesta)
+No Líneas que se
+trazan de
+izquierda a
+derecha;
+banda
+naranja
+Dos golpes
+secos
+C-IA-07
++ gráfico
+del
+editor
+0:07–
+0:12
+Momento
+memorable
+El precio
+real avanza,
+toca la
+banda y
+explota;
+contador
+de suba
+"Lo que pasó
+después." → "+
+[Z]% desde la
+zona" · pie:
+"Precio al [fecha
+de exportación]"
+No Time-lapse
+de velas,
+cámara que
+sigue la suba,
+flash al tocar
+la zona
+Riser →
+drop en el
+toque
+Serie de
+precios
+real
+0:12–
+0:15
+Más casos Dos
+tarjetas
+rápidas con
+el mismo
+formato
+"[Moneda 2] ·
+[fecha] · +
+[Z2]%" · "
+[Moneda 3] ·
+[fecha] · +
+[Z3]%" · pie:
+"Casos reales
+seleccionados.
+No representan
+todas las
+respuestas."
+No Tarjetas que
+entran en
+cascada
+Tres ticks C-IA-07
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 14 of 30
+
+--- Página 15 ---
+Tiempo Mensaje Pantalla o
+acción real
+Texto en
+pantalla
+Locución Movimiento /
+transición
+Sonido Material
+0:15–
+0:18
+Tracción
+(E1)
+Contador
+sobre fondo
+de marca
+"~500 accesos
+nuevos a la IA
+por semana" ·
+pie: "Dato
+interno
+Finanflix, sep-
+2026"
+No Conteo
+rápido, 1 s
+quieto
+Tick
+ascendente
+—
+0:18–
+0:22
+Método
+(E3)
+Chips sobre
+el
+composer
+"No es un chat
+genérico." →
+"Casi una
+década en el
+mercado cripto,
+en cada
+respuesta." ·
+Chips: "Material
+del programa" ·
+"Fibonacci +
+estocástico" ·
+"Tu cartera"
+No Chips de a
+uno
+Golpes
+suaves
+C-IA-01
+0:22–
+0:30
+Demo de
+hoy
+Se tipea
+una
+pregunta
+sobre una
+moneda y
+llega la
+respuesta
+con el
+gráfico
+"Hoy, preguntale
+por la tuya." + 2
+frases literales
+de la respuesta
+No Zoom al
+gráfico;
+pastilla E5
+"Leyendo el
+material del
+programa…"
+Tecleo +
+swell
+C-IA-02,
+C-IA-03
+0:30–
+0:34
+Tu cartera "¿Cuánto
+puedo
+perder si el
+mercado
+cae 20%?"
+con el
+Tracker
+conectado
+"Mercado
+−20%. Tu
+cartera: [X]%."
+No La tarjeta del
+Tracker entra
+al chat (E8)
+Impacto en
+el número
+C-IA-04
+0:34–
+0:37
+Decisión Última línea
+de la
+respuesta
+"La lectura es
+del método. La
+decisión, tuya."
+No Corte a plano
+limpio
+Silencio
+breve
+C-IA-02
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 15 of 30
+
+--- Página 16 ---
+Todo lo que está entre corchetes se copia de la respuesta original y de la serie de precios
+real. La animación puede redibujar el gráfico, pero con los mismos niveles, fechas y
+precios.
+Criterio para elegir los casos: respuesta posterior al 27-jul-2026 (función de flash crash,
+PR #35), con fecha y hora visibles, niveles explícitos, y suba medida desde el nivel
+marcado, no desde el mínimo real. Mejor tres monedas distintas que tres respuestas
+sobre la misma.
+Dependencias
+Acceso a la plataforma para revisar las respuestas y elegir los casos (Facu lo habilita).
+Captura de cada respuesta original con fecha, sin datos de otros usuarios.
+Serie de precios de cada moneda desde la fecha de la respuesta hasta la exportación.
+Cuenta demo con IA, créditos y Tracker conectado para las tomas de 0:22 a 0:37.
+Confirmar acceso en el trial para el CTA.
+Video 2 · Portfolio Tracker (30 s)
+Idea central: toda tu cartera en un solo lugar, y antes de mover un dólar ves cómo
+cambia cada posición. Demo principal: la calculadora de escenarios de liquidez. Apoyos:
+conexión de solo lectura o importación, y la IA leyendo esa cartera.
+Objetivo: que quien tiene inversiones repartidas quiera ordenarlas en el Tracker.
+Audiencia: inversores con posiciones en más de un exchange o broker.
+Mensaje: tu cartera completa, leída con el criterio de Finanflix.
+Tiempo Mensaje Pantalla o
+acción real
+Texto en
+pantalla
+Locución Movimiento /
+transición
+Sonido Material
+0:37–
+0:40
+CTA (E6 +
+E7)
+Cierre de
+marca
+"Finanflix IA" ·
+"Probala 30 días
+gratis" ·
+finanflix.com ·
+legal:
+"Respuestas
+generadas con
+IA. No es
+recomendación
+de inversión.
+Rendimientos
+pasados no
+garantizan
+resultados
+futuros."
+No El isologo
+repite la
+apertura
+Sting de
+marca
+Kit de
+marca
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 16 of 30
+
+--- Página 17 ---
+CTA: "Probalo 30 días gratis" → finanflix.com/Aprende-Nuestro-metodo/ con ref .
+Depende de confirmar acceso sin cupo.
+Queda afuera: futuros, DCF, tesis de inversión y Flix Market. La tesis es valiosa, pero
+agrega una tercera idea.
+Aperturas
+A · La pregunta incómoda (recomendada): "¿Cuánto tenés invertido? En total." sobre
+fragmentos de apps y planillas que no suman.
+B · Tracción: "[N] carteras ya cargadas en el Tracker." Depende de un dato actual del
+admin; el último documentado es de julio.
+Recomendación: A. Plantea el problema en 3 segundos y no depende de datos pendientes.
+Si llega el dato, B entra de 0:25 a 0:27.
+Storyboard
+Tiempo Mensaje Pantalla o acción
+real
+Texto en pantalla Locución Movimiento /
+transición
+Sonido Material
+0:00–
+0:03
+Gancho Fragmentos
+genéricos de
+exchange, broker
+y planilla flotando,
+desordenados; sin
+logos
+"¿Cuánto tenés
+invertido?" → "En
+total."
+No Tarjetas que
+tiemblan y no
+encajan
+Clicks
+dispersos
+Gráfica
+del
+editor
+0:03–
+0:07
+Consolidación Los fragmentos
+vuelan al tablero
+del Tracker
+(captura real)
+"Todo en un solo
+lugar."
+No Snap de las tarjetas
+al tablero
+Whoosh +
+clack
+C-TR-01,
+C-TR-02
+0:07–
+0:12
+Cómo entra la
+cartera
+Pantalla de
+conexión de
+exchange;
+después
+importación de
+CSV con vista
+previa
+"Solo lectura: ve,
+no mueve." → "O
+importá tu
+historial."
+No Pastilla E5:
+"Importando
+transacciones…"
+Tecleo
+corto
+C-TR-05,
+C-TR-06
+0:12–
+0:18
+Lectura Cripto Spot: valor
+total, liquidez,
+drawdown, torta;
+pestaña
+Rendimiento
+contra BTC
+"Liquidez, riesgo
+y peso de cada
+activo." → "Tu
+rendimiento
+contra Bitcoin."
+No Zoom a cada
+métrica
+Golpes
+suaves por
+métrica
+C-TR-02,
+C-TR-03
+0:18–
+0:25
+Momento
+memorable
+Calculadora de
+escenarios:
+efectivo objetivo
+baja; "Optimizar";
+las barras de ROI
+se mueven
+"¿Y si bajo mi
+liquidez al
+[Y]%?" → "Mirá
+cómo cambia
+cada posición
+antes de mover
+un dólar."
+No Slider animado,
+barras que se
+reacomodan
+Riser que
+resuelve
+C-TR-04
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 17 of 30
+
+--- Página 18 ---
+Los porcentajes de liquidez y ROI se copian de la captura de la cuenta demo. Si en el
+recorte de 9:16 la tabla no se lee, se reemplaza por la versión simplificada del editor con
+los mismos valores.
+Dependencias
+Cuenta demo en el Tracker con semanas de historia: el gráfico de rendimiento sale de
+snapshots semanales y mensuales, y una cuenta nueva no los tiene.
+Confirmar qué exchanges y brokers se pueden nombrar hoy; la pieza los nombra como
+texto, sin logos de terceros.
+Confirmar que el Tracker está incluido en la suscripción y sin cupo.
+Dato actual de cuentas activas, si se quiere la apertura B.
+Video 3 · Calculadora (30 s) — lista para producir
+Idea central: la calculadora no solo proyecta; te hace vivir la decisión de 2008 y te
+muestra qué habría pasado. Demo principal: simulador "¿Te bancabas 2008?". Apoyos:
+poder adquisitivo en Big Macs y los tres recorridos de entrada. Es la única pieza sin
+dependencias de datos: todo lo que muestra lo vi funcionar el 29-sep.
+Objetivo: que la gente abra la calculadora y juegue con su plan.
+Audiencia: ahorristas que dudan de invertir por miedo a una caída. Es la pieza más
+amplia de la campaña.
+Mensaje: probar tu plan contra la historia antes de arriesgar.
+CTA: "Gratis, sin registrarte" → plataforma.finanflix.com/calculadora con UTM del canal.
+Nunca calculadora.finanflix.com.
+Queda afuera: configuración avanzada, métodos de retorno, formulario de revisión
+para más de US$ 50.000. Titulares históricos queda como apertura alternativa.
+Tiempo Mensaje Pantalla o acción
+real
+Texto en pantalla Locución Movimiento /
+transición
+Sonido Material
+0:25–
+0:27
+Puente a la IA La tarjeta del
+Tracker entra al
+chat de Finanflix
+IA
+"La IA de
+Finanflix lee esta
+cartera para
+responderte."
+No Hilo naranja (E8) Pulso C-IA-04
+0:27–
+0:30
+CTA (E6 + E7) Cierre de marca "Portfolio
+Tracker" ·
+"Probalo 30 días
+gratis" ·
+finanflix.com ·
+legal:
+"Herramienta de
+seguimiento. No
+ejecuta
+operaciones."
+No Isologo Sting Kit de
+marca
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 18 of 30
+
+--- Página 19 ---
+Aperturas
+A · 2008 (recomendada): "2008. El S&P 500 cayó 37%." y enseguida "¿Qué hacés?" con
+los tres botones reales.
+B · El titular: "Enero de 2024. Arrancan a cotizar los ETF de bitcoin." con Compro /
+Vendo / Sigo con mi plan. Falta grabar el resultado de ese recorrido.
+Recomendación: A. Tiene la decisión, la tensión y un resultado con tres números que se
+entienden sin sonido.
+Storyboard
+Valores observados el 29-sep-2026 con aporte de US$ 833 por mes desde enero de 2007.
+Se regraban el día de la captura final y se copian tal cual.
+Tiempo Mensaje Pantalla o
+acción real
+Texto en pantalla Locución Movimiento
+/ transición
+Sonido Material
+0:00–
+0:03
+Gancho Gráfico del
+simulador
+con 2008
+sombreado
+en rojo
+"2008. El S&P 500 cayó 37%." No La línea cae
+y se frena
+Golpe
+grave
+C-CA-
+03
+0:03–
+0:06
+La decisión Tarjeta
+"2008: el
+S&P cayó
+37%" con
+tres
+opciones
+"Vos aportabas US$ 833 por mes." →
+"¿Qué hacés?"
+No Las tres
+opciones
+entran de a
+una
+Tres
+ticks
+C-CA-
+03
+0:06–
+0:09
+Elegís El cursor
+toca "Sigo
+aportando"
+"Vos decidís. Después ves qué pasó." No Click con
+zoom corto
+Click
+real
+C-CA-
+04
+0:09–
+0:15
+La historia
+corre
+El gráfico
+avanza de
+2009 a 2025
+y se separan
+tres líneas
+"2009 → 2025" No Barrido
+lateral
+siguiendo la
+línea
+Riser C-CA-
+04
+0:15–
+0:21
+Momento
+memorable
+Barras "En
+2025
+tendrías"
+"Seguiste aportando: US$ 820.598" ·
+"Dejaste de aportar: US$ 320.226" ·
+"Vendiste todo: US$ 184.341" →
+"Pusiste lo mismo en las tres: US$
+190.000."
+No Barras que
+crecen en
+orden
+Impacto
+en la
+barra
+naranja
+C-CA-
+04
+0:21–
+0:24
+Honestidad Nota del
+propio
+simulador
+"En esta ventana el mercado se
+recuperó. No siempre pasa."
+No Texto
+quieto, 3 s
+Baja la
+música
+C-CA-
+04
+0:24–
+0:27
+Más usos Tres
+preguntas
+de entrada y
+el plano de
+Big Macs
+"Proyectá. Poné una meta. Calculá
+tus rentas."
+No Tríptico
+rápido
+Tres
+golpes
+C-CA-
+01, C-
+CA-02
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 19 of 30
+
+--- Página 20 ---
+Formato de números: la app muestra formato de EE.UU. ("$820,598"). En los textos del
+video van en formato argentino y con "US$"; en la captura se dejan como aparecen.
+Dependencias
+Ninguna de datos. Solo congelar la versión y regrabar el día de la captura final.
+Al 30-sep calculadora.finanflix.com seguía sirviendo la copia vieja. Facu cree que Lenny
+ya lo está cambiando; si no, el editor graba solo en
+plataforma.finanflix.com/calculadora.
+Video 4 · Conjunto (55 s)
+Idea central: Finanflix crece porque su método ya está en herramientas que la gente
+usa: entendés con la IA, seguís tu cartera con el Tracker y probás tu plan con la
+Calculadora. Relato propio: tracción → experiencia → recorrido → invitación. Reutiliza
+planos de las tres piezas y suma apertura y cierre propios.
+Objetivo: deseo de sumarse, apoyado en crecimiento verificable.
+Audiencia: seguidores de Facu y de Finanflix que todavía no son suscriptores.
+Mensaje: casi una década en el mercado cripto, ahora en tres herramientas.
+CTA: "Probá 30 días gratis" → finanflix.com/Aprende-Nuestro-metodo/ con ref .
+Sin integraciones inventadas: el hilo naranja une IA y Tracker (conexión real); la
+Calculadora aparece como un paso aparte.
+Aperturas
+A · Tracción (recomendada): "Junio: 452 suscriptores pagos." → "Hoy: 716." y enseguida
+"~500 accesos nuevos a la IA por semana". Verificado y dato de Facu; se actualiza al
+publicar.
+B · Prueba: abre directo con el caso del flash crash del Video 1 y la tracción pasa al
+segundo 8.
+Recomendación: A. El Video 1 ya abre con el caso del flash crash, así las dos piezas no
+empiezan igual; el caso entra en el conjunto como prueba, de 0:08 a 0:14.
+Tiempo Mensaje Pantalla o
+acción real
+Texto en pantalla Locución Movimiento
+/ transición
+Sonido Material
+0:27–
+0:30
+CTA (E6 +
+E7)
+Cierre de
+marca
+"Calculadora Finanflix" · "Gratis, sin
+registrarte" ·
+plataforma.finanflix.com/calculadora
+· legal: "Simulación con datos
+históricos del S&P 500. Rendimientos
+pasados no garantizan resultados
+futuros."
+No Isologo Sting Kit de
+marca
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 20 of 30
+
+--- Página 21 ---
+Storyboard
+Tiempo Mensaje Pantalla o
+acción real
+Texto en pantalla Locución
+(propuesta)
+Movimiento /
+transición
+Sonido Material
+0:00–
+0:05
+Tracción (E1) Contador
+sobre fondo
+de marca
+"Junio: 452
+suscriptores
+pagos." → "Hoy:
+716." · pie:
+"Fuente:
+dashboard
+Finanflix, [fecha
+de publicación]"
+"En junio, 452
+personas
+pagaban
+Finanflix. Hoy,
+716."
+El número
+cuenta y
+queda quieto
+Golpe +
+pulso
+Dashboard
+0:05–
+0:08
+Tracción de
+la IA (E1)
+Segundo
+contador
+"~500 accesos
+nuevos a la IA por
+semana" · pie:
+"Dato interno
+Finanflix, sep-
+2026"
+"Y cada semana,
+unas 500
+personas más
+entran a la IA."
+Contador que
+se suma al
+anterior
+Tick
+ascendente
+—
+0:08–
+0:14
+Prueba (E2) Caso del flash
+crash del
+Video 1,
+versión corta
+"La IA marcó la
+zona: mecha del
+flash crash +
+0.786." → "+[Z]%
+después." · pie de
+caso
+seleccionado
+"Marcó la zona
+con el método.
+Mirá lo que pasó
+después."
+Banda
+naranja y
+time-lapse de
+la suba
+Riser →
+drop
+C-IA-07 +
+serie de
+precios
+0:14–
+0:18
+Método y
+experiencia
+(E3)
+Fondo de
+clase en vivo
+o del equipo,
+con chips
+"Casi una década
+en el mercado
+cripto." →
+"Harvard ·
+Chicago Booth ·
+CFA · IAE"
+"Casi una
+década en cripto,
+convertida en
+método."
+Chips en fila Base
+constante
+Kit de
+marca;
+landing
+0:18–
+0:20
+Transición Negro "Ahora, en tres
+herramientas."
+"Ahora, en tres
+herramientas."
+Corte seco a
+negro
+Silencio —
+0:20–
+0:28
+Entender Plano del
+Video 1:
+pregunta y
+gráfico con
+zonas
+"Entendé." → "La
+IA responde con
+el método."
+"Le preguntás a
+la IA y te
+responde con el
+método."
+Zoom al
+gráfico
+Tecleo +
+swell
+C-IA-02, C-
+IA-03
+0:28–
+0:36
+Seguir Plano del
+Video 2:
+tablero y
+escenarios; la
+tarjeta vuelve
+al chat
+"Seguí." → "Tu
+cartera en un solo
+lugar. La IA la lee."
+"Cargás tu
+cartera y la IA la
+lee."
+Hilo naranja
+IA ↔  Tracker
+Whoosh C-TR-02, C-
+TR-04, C-
+IA-04
+0:36–
+0:45
+Explorar Plano del
+Video 3: 2008
+y las barras
+"Explorá." →
+"Probá tu plan
+contra la historia."
+"Y probás tu plan
+contra la
+historia."
+Corte a la
+calculadora,
+sin hilo
+Impacto en
+la barra
+C-CA-03, C-
+CA-04
+0:45–
+0:50
+Comunidad Plano de una
+clase en vivo
+real
+"Clases en vivo
+cada semana."
+"Y cada semana,
+en vivo con el
+equipo."
+Plano humano Sube la
+música
+Grabación
+de clase
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 21 of 30
+
+--- Página 22 ---
+Locución: es una propuesta. Si Facu no la graba y la hace suya, la pieza va solo con texto y
+música; los textos en pantalla ya cuentan todo.
+Dependencias
+Casos del flash crash elegidos y verificados (los mismos del Video 1).
+Credenciales: salen de la landing ("El equipo de Finanflix, formado por…"). Confirmar a
+quién corresponde cada una antes de ponerlas juntas.
+Grabación de una clase en vivo con permiso para usarla en publicidad.
+La cifra de experiencia entra solo con medida, período y equipo definidos.
+Lista de capturas, datos de demo y reset
+Las capturas de la Calculadora se pueden grabar hoy; las de IA y Tracker necesitan
+primero la cuenta demo. Grabar cada recorrido dos veces: desktop 1440×900 y mobile
+390×844, a 60 fps, sin notificaciones, cursor visible y zoom del navegador al 100%.
+Calculadora (pública, ventana de incógnito)
+Tiempo Mensaje Pantalla o
+acción real
+Texto en pantalla Locución
+(propuesta)
+Movimiento /
+transición
+Sonido Material
+0:50–
+0:55
+CTA (E6 +
+E7)
+Cierre que
+repite la
+apertura
+"Probá 30 días
+gratis" ·
+finanflix.com ·
+legal: "Contenido
+educativo. No es
+recomendación
+de inversión.
+Rendimientos
+pasados no
+garantizan
+resultados
+futuros."
+"Probá Finanflix
+30 días gratis."
+El 716 vuelve
+y se
+transforma en
+el isologo
+Sting Kit de
+marca
+ID Dónde entrar Qué cargar Qué tocar Resultado a
+mostrar
+Estado
+C-
+CA-
+01
+plataforma.finanflix.com/calculadora Nada Pasar por las
+tres
+preguntas;
+tocar
+"¿Cuánto
+voy a
+tener?"
+Panel de
+configuración y
+resultado del
+plan por defecto
+Listo
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 22 of 30
+
+--- Página 23 ---
+No completar "Guardá tu plan" con un email real: genera un lead. Aviso: durante mi prueba
+un click de la página escribió en el portapapeles.
+ID Dónde entrar Qué cargar Qué tocar Resultado a
+mostrar
+Estado
+C-
+CA-
+02
+Misma URL Plan por
+defecto: US$
+10.000, 12
+aportes
+mensuales,
+S&P 500, 5
+años
+Bajar a
+"Evolución y
+poder
+adquisitivo
+real"; tocar
+"Big Macs" y
+"Ver cómo
+crece"
+"Invirtiendo, en 5
+años podrías
+comprar X% más
+hamburguesas"
+(64% el 29-sep)
+Listo
+C-
+CA-
+03
+Simulador de eventos Aporte US$
+833;
+"Empezás
+en" 2007
+"Reviví la
+historia" y
+esperar la
+pausa
+Tarjeta "2008: el
+S&P cayó 37%"
+con tres
+opciones
+Listo
+C-
+CA-
+04
+Sigue de C-CA-03 — "Sigo
+aportando"
+Gráfico 2007–
+2025 y barras
+finales con la
+nota de
+honestidad
+Listo
+C-
+CA-
+05
+Simulador — "Otro
+evento"
+hasta el
+titular del
+ETF de
+bitcoin;
+elegir una
+opción
+Titular, decisión
+y resultado
+Listo
+(resultado
+sin
+revisar)
+C-
+CA-
+06
+"¿Cuánto debo aportar?" Preset
+"Casa —
+$50.000 · 5
+años"
+Elegir el
+preset
+Aporte
+requerido y línea
+"Tu meta"
+Listo
+C-
+CA-
+07
+"¿Cuánto necesito para vivir de
+rentas?"
+US$ 3.000
+por mes,
+regla del 4%
+"Armá tu
+plan"
+Capital objetivo
+y plan a 20 años
+Listo
+C-
+CA-
+08
+Cualquier recorrido — "Copiar
+enlace" en
+"Compartí
+este
+escenario"
+Guardar el link:
+reproduce el
+mismo plan en la
+regrabación
+Listo
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 23 of 30
+
+--- Página 24 ---
+Finanflix IA (cuenta demo)
+Portfolio Tracker (misma cuenta, vía SSO)
+ID Dónde entrar Qué cargar Qué tocar Resultado a
+mostrar
+Estado
+C-IA-
+01
+plataforma.finanflix.com →
+menú → Finanflix IA
+Chat nuevo Nada Estado vacío del
+chat, desktop y
+mobile
+Falta
+cuenta
+C-IA-
+02
+Chat nuevo — Escribir "¿Llegué
+tarde a BTC?" y
+enviar; grabar el
+streaming completo
+Respuesta con
+gráfico de
+Fibonacci +
+estocástico y
+fuentes si
+aparecen
+Falta
+cuenta
+C-IA-
+03
+Misma respuesta — Pasar el cursor por
+el gráfico
+Niveles y zona
+legibles
+Falta
+cuenta
+C-IA-
+04
+Chat con Tracker conectado Cartera
+demo
+"¿Cuánto puedo
+perder si el mercado
+cae 20%?"
+Respuesta con el
+porcentaje de la
+cartera demo
+Falta
+cuenta
+C-IA-
+05
+Chat Captura
+ficticia de
+exchange
+Adjuntar, revisar
+posiciones y elegir
+"Reemplazar"
+Posiciones
+importadas al
+Tracker
+Falta
+cuenta
+C-IA-
+07
+Historial de respuestas en la
+plataforma
+— Buscar respuestas
+con mecha de flash
+crash y 0.786;
+capturar cada una
+con fecha y hora
+Casos para E2 Con el
+acceso
+de Facu
+ID Dónde entrar Qué cargar Qué tocar Resultado a mostrar Estado
+C-TR-
+01
+Menú de Finanflix
+→ Portfolio Tracker
+— Esperar la redirección Tablero inicial Falta
+cuenta
+C-TR-
+02
+Cripto Spot Cartera demo Abrir la cartera Valor total, liquidez,
+drawdown, torta
+Falta
+cuenta
+C-TR-
+03
+Cripto Spot →
+Rendimiento
+Historia de 3
+meses o más
+Activar el benchmark
+BTC
+Retorno ponderado
+contra BTC
+Falta
+historia
+C-TR-
+04
+Calculadora de
+escenarios
+Cartera con
+40% o más de
+efectivo
+Efectivo objetivo más
+bajo → Optimizar (ROI
+objetivo o mejor piso)
+Barras de ROI
+reacomodadas
+Falta
+cuenta
+C-TR-
+05
+Gestionar
+exchanges
+— Abrir la conexión de un
+exchange, sin pegar
+claves
+Aviso de permisos
+de solo lectura
+Falta
+cuenta
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 24 of 30
+
+--- Página 25 ---
+Datos de demo
+Titular: "Flixer Demo". Sin nombres, emails ni saldos de clientes reales.
+Cartera "Demo — Cripto": 55% cripto y 45% USDT, para que la calculadora de
+escenarios tenga efectivo para mover. Cripto: BTC 25%, ETH 15%, SOL 8%, LINK 7% del
+total.
+Historia: compras escalonadas durante 6 meses, con dos posiciones en pérdida y dos
+en ganancia, para que haya drawdown y rendimiento.
+Cantidades: las calcula el responsable técnico con los precios del día de carga. Los
+pesos importan, no los montos.
+Archivo: CSV con la plantilla genérica del Tracker (trk #302); lo armo cuando confirmen
+el formato.
+Cómo volver cada demo al estado inicial
+Calculadora: ventana de incógnito nueva, o abrir el link guardado en C-CA-08. El plan
+guardado vive en el navegador.
+IA: chat nuevo. Pedir a Lenny que borre la memoria del usuario demo y le deje créditos
+ilimitados, para que la segunda toma no arrastre la primera.
+Tracker: reimportar el CSV demo con "Reemplazar" (trk #310). Si falló algo, que
+Santiago Castillo restaure la cuenta desde el admin. Confirmar con él si reimportar
+borra los snapshots históricos antes de usar este método.
+Matriz de accesos y materiales
+El editor no necesita acceso al código ni a producción: necesita una carpeta compartida
+con capturas limpias, el kit de marca y este documento. Nada de contraseñas ni claves
+en este doc; la cuenta demo se entrega por el canal que use Lenny.
+ID Dónde entrar Qué cargar Qué tocar Resultado a mostrar Estado
+C-TR-
+06
+Importar CSV Plantilla
+genérica con la
+cartera demo
+Vista previa →
+Confirmar
+Transacciones
+importadas
+Falta
+cuenta
+Recurso Para qué lo
+necesita el
+editor
+Ubicación o enlace Acceso
+mínimo
+Responsable Estado
+Calculadora
+en
+producción
+Capturas del
+Video 3 y del
+conjunto
+plataforma.finanflix.com/calculadora Público — Disponible
+(29-sep)
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 25 of 30
+
+--- Página 26 ---
+Recurso Para qué lo
+necesita el
+editor
+Ubicación o enlace Acceso
+mínimo
+Responsable Estado
+Copia vieja
+de la
+calculadora
+No usar;
+redirigir
+calculadora.finanflix.com — Lenny Riesgo
+abierto
+Finanflix IA Capturas del
+Video 1
+plataforma.finanflix.com/asistente-af Cuenta
+demo con IA
+y créditos
+ilimitados
+Lenny Pendiente
+de crear
+Portfolio
+Tracker
+Capturas del
+Video 2
+Menú de Finanflix → Portfolio Tracker (soldier-
+trades.trade, SSO)
+Misma
+cuenta
+demo, fuera
+del cupo
+Santiago
+Castillo y
+Lenny
+Pendiente
+de crear
+Cartera
+demo (CSV)
+Datos
+coherentes en
+IA y Tracker
+Plantilla genérica del Tracker — Claude arma,
+Santiago
+valida
+Pendiente
+de formato
+Grabaciones
+limpias
+Material de
+base
+Carpeta de Drive "Campaña herramientas /
+capturas"
+Lector para
+el editor
+Facu crea la
+carpeta;
+Lenny graba
+IA y Tracker
+Pendiente
+Logos
+vectoriales
+(isologo y
+wordmark)
+Aperturas y
+cierres
+Solo encontré PNG (favicon 512 px) SVG o AI Eric o diseño Pendiente
+Tipografía
+Sharp
+Grotesk
+Todos los
+textos
+Repo Finanflix/finanflix-dev,
+src/assets/font/  (.woff2 web)
+Licencia de
+escritorio
+para el
+editor
+Facu verifica
+licencia
+Pendiente
+Colores Paleta #1A1A23, #282844, #FF3F00, #5328C1 — — Disponible
+Sistema de
+diseño
+Componentes
+y estilos
+Proyecto de Claude Design;
+tailwind.config.ts  y globals.css  del repo
+Lector Facu Disponible
+para Facu
+Pantallas
+editables
+Reconstruir la
+UI simplificada
+Las arma el editor desde las capturas, en su
+herramienta
+— Editor Según su
+flujo
+Referencia
+audiovisual
+Ritmo y
+lenguaje
+x.com/higgsfield/status/2104989726604484946 Público;
+archivo en
+la carpeta
+Facu
+descarga y
+sube
+Enlace
+disponible
+Guiones y
+storyboards
+Letra exacta
+por escena
+Este documento Comentar Facu
+comparte
+Disponible
+CTA con
+atribución
+Destino de
+cada pieza
+finanflix.com/Aprende-Nuestro-metodo/ con
+ref  por canal (Facu: 9–16; Finanflix: 1–8)
+— Eric confirma
+el formato del
+parámetro
+Parcial
+Condiciones
+de acceso
+Texto del CTA Landing vs inventario del 17-sep — Facu y Lenny Pendiente
+Datos de
+tracción
+E1 en cada
+pieza
+Dashboard (suscriptores); panel admin de la IA
+(uso); admin del Tracker (cuentas)
+— Facu; Lenny;
+Santiago
+Parcial
+Casos de la
+IA
+Escena E2 Base de conversaciones de la IA Export sin
+datos
+personales
+Lenny Pendiente
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 26 of 30
+
+--- Página 27 ---
+Invitación preparada, no enviada: carpeta de Drive "Campaña herramientas" →
+destinatario: el editor → permiso: lector en capturas y marca, comentador en este
+documento. La envía Facu.
+Roadmap de producción
+La Calculadora puede entrar en styleframes esta semana; IA y Tracker llegan hasta el
+animatic con capturas provisorias y se cierran cuando exista la cuenta demo. Las
+estimaciones son de trabajo y las ajusta el editor según su flujo; la herramienta de
+animación la elige él.
+El gate solo frena a IA y Tracker: la Calculadora sigue de largo hasta la pieza terminada.
+Recurso Para qué lo
+necesita el
+editor
+Ubicación o enlace Acceso
+mínimo
+Responsable Estado
+Grabación de
+clase en vivo
+Plano de
+comunidad del
+conjunto
+Drive de grabaciones (class01) Permiso de
+uso
+publicitario
+Facu Pendiente
+Música y
+efectos
+Banda sonora Biblioteca con licencia comercial del editor — Editor Según su
+flujo
+roadmap de producción · 7 etapas, 1 gate
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 27 of 30
+
+--- Página 28 ---
+En paralelo desde hoy: cuenta demo y cartera CSV (Lenny, Santiago, Claude), capturas de
+la Calculadora (editor o Lenny), logos SVG y licencia tipográfica (Eric, Facu), permiso de la
+clase en vivo (Facu).
+Qué bloquea qué: sin cuenta demo no hay capturas finales de IA y Tracker. Sin la
+respuesta sobre acceso, el CTA de IA, Tracker y conjunto queda en borrador. Los datos
+pendientes bloquean textos finales, no el animatic.
+Checklist de la etapa 7
+Etapa Responsable Depende de Entregable Criterio de cierre Estimación
+1 · Inventario y
+oferta
+Claude (hecho);
+Facu responde;
+Lenny confirma
+versiones
+— Inventario con
+estados y oferta
+confirmada
+Cada afirmación
+de los guiones
+tiene fuente o sale
+1–2 días
+2 · Concepto,
+escenas y
+guiones
+Claude (borrador
+listo); Facu
+aprueba
+1 para IA y
+Tracker; nada
+para la
+Calculadora
+Estos cuatro
+guiones con las
+marcas
+resueltas
+Facu aprueba por
+escrito cada guion
+1–2 días
+3 · Styleframes
+y prueba de
+movimiento
+Editor 2 y kit de marca 3 frames (E1, E4,
+E6) y 5 s
+animados
+Facu aprueba
+lenguaje,
+tipografía y ritmo
+3–5 días
+4 · Animatic Editor 3 y capturas
+provisorias
+Las cuatro
+piezas en baja,
+con tiempos
+reales
+Se entiende sin
+sonido; cada texto
+dura lo que pide la
+regla de lectura
+3–4 días
+5 · Piezas
+individuales
+Editor 4; cuenta demo
+y capturas
+limpias para IA y
+Tracker
+Calculadora,
+luego IA, luego
+Tracker, en 9:16
+Revisión de
+producto y
+números sin
+observaciones
+5–8 días
+6 · Conjunto Editor 5 55 s en 9:16 y
+16:9
+Apertura y cierre
+propios aprobados
+2–3 días
+7 · Revisión y
+entrega
+Claude
+(números), Lenny
+(producto), Facu
+(publicación),
+editor (exportes)
+6 Exportes 9:16,
+4:5 y 16:9 +
+proyectos
+editables
+Checklist de abajo
+completo
+2 días
+Cada cifra en pantalla coincide con su fuente el día de exportación y lleva fecha en el
+pie.
+Ninguna captura muestra datos de clientes, emails o saldos reales.
+Cada texto se lee completo sin sonido, en 9:16, dentro de la zona segura.
+Los legales de cada pieza están presentes y legibles al menos 2 s.
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 28 of 30
+
+--- Página 29 ---
+Fuentes
+Consultadas el 29-sep-2026.
+Producto observado
+Calculadora en producción: recorridos, simulador, poder adquisitivo y compartir,
+probados sin login.
+calculadora.finanflix.com: copia estática con Last-Modified 10-ago-2026, sin simulador.
+Landing de destino: Last-Modified 28-sep-2026; promesa de IA y Tracker incluidos, 30
+días gratis, credenciales, +6.000 flixers.
+Referencia de Higgsfield: revisada sin audio, 59,6 s.
+Datos
+Dashboard Finanflix (conector): suscriptores pagos abr–sep 2026 y free trials diarios
+de agosto y septiembre.
+Mixpanel, proyecto finanflix-production: registros por semana, eventos de la
+calculadora ( calc_started , event_sim_viewed ) e Import Completed .
+Documentos y código
+PDF adjunto "Finanflix IA + Tracker — mejoras desde el lanzamiento base" (corte 17-
+sep-2026, PRs de los repos de plataforma y Tracker).
+PDF adjunto "Temas para publicidades — Finanflix IA + Tracker" (sep-2026).
+Presentación Tracker, notas y transcripción (17-jun-2026).
+Reunión del 02-jul-2026, notas: 194 cuentas del Tracker.
+Repo local calculadora-finanflix : docs/04-arreglos-diagnostico-03.md  y
+componentes EventSimulator , NewsQuiz , HistoryReplay .
+Repo local finanflix-dev  (entorno dev, no producción): /asistente-af , gates del
+Tracker, rama feat/calculadora-diagnostico-03 .
+Repo local af-gpt : docs/metodo-finanflix.md  (216 reglas, 20-jun) y
+docs/arquitectura-de-razonamiento.md .
+Vault: CLAUDE.md , 00-contexto-finanflix.md  (cifras congeladas), digest 2026-09-
+04, notas del 12-ago y 02-sep sobre la cifra de USD 5.000 millones, nota de Codex del
+29-sep.
+Lenny confirma que cada pantalla existe en producción tal como se muestra.
+Audio: música con licencia, sin picos, mezcla pareja entre piezas.
+Entregables: exportes por formato y proyectos editables con tipografías y assets.
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 29 of 30
+
+--- Página 30 ---
+No encontrado: fuente de 500 usuarios por semana, respuestas fechadas de la IA con
+bottoms, definición de USD 5.200 millones, uso actual de IA y Tracker.
+Campaña herramientas Finanﬂix — paquete de preproducción
+Page 30 of 30
